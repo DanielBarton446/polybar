@@ -1,6 +1,7 @@
 #! /bin/bash
 
 bar="▁▂▃▄▅▆▇█"
+# bar="._o-O0"
 dict="s/;//g;"
 
 # creating "dictionary" to replace char with bar
@@ -23,6 +24,9 @@ config_file="/tmp/polybar_cava_config"
 echo "
 [general]
 bars = 10
+
+[input]
+method = pulse
 
 [output]
 method = raw
