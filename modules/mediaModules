@@ -86,7 +86,7 @@ tail = true
 [module/bluetooth]
 type = custom/script
 interval = 2
-exec = echo ""
+exec = echo "      "
 format = <label>
 click-left = exec blueman-manager
 
