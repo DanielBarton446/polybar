@@ -1,6 +1,6 @@
 [module/wired-network]
 type = internal/network
-interface = enp42s0
+interface = wlp10s0
 
 ; Available tags:
 ;   <label-connected> (default)
